@@ -1,11 +1,13 @@
-# pytorch_attention
-Pytorch implementation of Bahdanau attention with inspiration from several wonderful resources:
-* [The Annotated Encoder Decoder](https://bastings.github.io/annotated_encoder_decoder/)
-* [Neural machine translation with attention](https://www.tensorflow.org/tutorials/text/nmt_with_attention)
-* [Pytorch Seq2Seq Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html) 
-* [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+# ATTENTION 구현하기
 
-# Usage
+## Model Architecture 공부
 
-1) Download and extract english-french translation data [here](https://download.pytorch.org/tutorial/data.zip).
-2) ```python3 train.py```
+### load_data.py
+- 데이터 로더 구현
+
+### model.py
+- Encoder Devoder 로직 구현
+- Attention 매커니즘 구현
+
+### train.py
+- 학습 로직 구현
